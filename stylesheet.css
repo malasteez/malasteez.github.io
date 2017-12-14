@@ -1,0 +1,206 @@
+/* This installs the fonts that I used on my website. To add a font, use this url, go to Google Fonts and put | between every font you want. */
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Playfair+Display+SC|Raleway|Assistant:200|Lobster|Shrikhand|Bangers|Cormorant+Garamond:300, 300i|EB+Garamond|Martel:200');
+
+/* COLOR CODES 
+Blue = #4682e2
+ORANGE =  #d37f65
+*/
+
+/* Body */
+body {
+    padding:0;
+    margin:0;
+    background-color:white;
+}
+
+/* ALLOWS WEBSITE TO ADAPT TO SCREEN SIZE STRETCH/FIT */
+img {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+/* Global */
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+ul{
+    margin:0;
+    padding:0;
+}
+
+
+/*Header Box (Black) on all pages*/
+header{
+    background:black;
+    padding-top:10px;
+    min-height:40px;
+    text-align: center;
+    padding-bottom: 30px;
+  
+}
+
+
+/* menu links and text design */
+header a{
+    color:#4682e2;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size:14px;
+    text-align: center;
+}
+
+/* This formats the list in the header (the navigation links) by making it centered and the padding separates each section */
+header li{
+    float:center;
+    display:inline;
+    padding: 0 20px 0 20px;
+    text-align: center;
+}
+
+header #branding p{
+    float: none;
+    margin:0;
+    font-size:45px;
+    padding: 0;
+    font-family: 'Snell Roundhand';
+    color:#d37f65;
+}
+
+/* sets font for the navigation texts */
+header nav{
+    float: center;
+    margin-top:10px;
+    font-family: 'Times New Roman', serif;
+}
+
+/* Highlight selected page on Menu functions*/
+header .current a{
+    color:#d37f65;
+    font-weight: bold;
+   
+}
+
+/* All fonts within container on the website that are links will have this format */ 
+.container a{
+    font-size:16px;
+    text-decoration: none;
+    color: #4682e2;
+    
+}
+
+/* All fonts that are links on the website will have this hover decoration when the pointer points towards it. */
+.container a:hover{
+    color:#4682e2;
+}
+
+
+/* Showcase (the photo in the background on the main page) */
+#showcase{
+    background:url('img/WUJUKICK.JPG') no-repeat;
+    text-align:center;
+    background-size: 100%;
+    min-height: 200px;
+    padding-top: 250px;
+    padding-bottom: 310px; 
+    
+}
+
+
+
+
+
+/* This formats the "Greetings" text */
+#showcase h1{
+    margin-top:0px;
+    font-size:55px;
+    margin-bottom:20px;
+    color:#d37f65;
+    font-family: 'Times New Roman', serif ;
+    font-style: normal;
+}
+
+/* This formats the smaller body text underneath */
+#showcase p{
+    font-size:14px;
+    color:#000000;
+    font-family:'Impact', 'Charcoal', sans-serif ;
+    text-transform: none;
+}
+#sidebar{
+    float:right;
+    width:38%;
+    padding-left: 60px;
+    font-style: normal;
+    font-family:'Palatino Linotype', 'Book Antiqua', Palatino, serif ;
+}
+
+
+#main p, h3{
+    font-family: 'Assistant', sans-serif;
+}
+
+
+
+/* Donation Column */
+#main-col{
+    float:left;
+    width:65%;
+    padding-right: 40px;
+    font-family: 'Assistant', sans-serif;
+
+}
+
+/* Donation Page */
+#main-col2{
+    text-align: center;
+    font-family:'Cormorant Garamond', serif ;
+}
+
+/*First Post Header*/
+#main2 h3{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 24px;
+}
+
+/* This formats the posts underneath the first one. */
+#main2 h2{
+    font-family: 'Cormorant Garamond', serif;
+    margin-top: 6%;
+}
+
+/* This formats the date of the post */
+#main2 h1{
+    font-family: 'Courier New', 'Courier', monospace;
+    color: #9f9f9f;
+    font-size: 14px;
+}
+
+/* This formats the body text of the post*/
+#main2 p{
+    font-family:'Cormorant Garamond', serif;
+    font-size: 16px;
+    color: #000000;
+    margin-left: 14%;
+    margin-right: 14%;
+    text-align: center;
+    
+}
+
+/* border on the bottom, contact info*/
+footer{
+    padding:45px;
+    margin-top:0px;
+    margin-bottom: 0px;
+    color:black;
+    background-color:#4682e2;
+    text-align:center;
+    font-size: 12px;
+    font-family:'Courier New', 'Courier', monospace;
+}
+
