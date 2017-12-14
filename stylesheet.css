@@ -86,7 +86,7 @@ header .current a{
    
 }
 
-/* All fonts within container on the website that are links will have this format */ 
+/* Link formats*/ 
 .container a{
     font-size:16px;
     text-decoration: none;
@@ -94,7 +94,7 @@ header .current a{
     
 }
 
-/* All fonts that are links on the website will have this hover decoration when the pointer points towards it. */
+/* Link hover accessory.*/
 .container a:hover{
     color:#4682e2;
 }
